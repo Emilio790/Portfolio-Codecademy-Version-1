@@ -1,7 +1,99 @@
-body {
+/*This is for the header */
+
+html, body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0 var(--spacing-3);
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+h2#logo {
+    font-size: 50px;
+    margin-left: 0%;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+    z-index: 999;
+    margin: 0 0 24px 0;
+}
+
+nav { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+    
+
+}
+	
+nav li {
+	display: inline;
+
+}
+
+nav a {
+	text-decoration: none;
+	font-family:  "Open Sans", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: white;
+}
+
+nav a:hover {
+	text-decoration: none;
+	font-family:  "Open Sans", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+
+section#about-me {
+    position: relative; 
+    top: 40%;
+    right: 20%;
+}
+
+div.about-me-text-container {
+    display: flex;
+    background-color: yellowgreen;
+    color: white;
+    padding: 100px 100px;
+    border-radius: 20%;
+    flex-direction: column;
+}
+
+img.portrait {
+    border-radius: 100%;
+    
+}
+
+p {
+    font-size: 20px;
 }
