@@ -8,6 +8,7 @@ html, body {
     margin: 0 auto;
     display: flex;
     height: 100%;
+    background-image: url("./images/black-white-monochrome-minimalistic-white-planet-embossed-mountains-white-planet-against-background-black-mountains-black-white-space-abstract-3d-render_507676-955.avif");
 }
 h2#logo {
     font-size: 50px;
@@ -28,6 +29,7 @@ header{
     color: white;
     font-size: 30px;
     position: fixed;
+    height: 100px;
     top: 0;
     left: 0;
     width: 100%;
@@ -79,7 +81,6 @@ section#about-me {
     position: relative; 
     top: 40%;
     right: 20%;
-    background-image: ;
 }
 
 div.about-me-text-container {
@@ -102,5 +103,6 @@ img.portrait {
 }
 
 p {
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
