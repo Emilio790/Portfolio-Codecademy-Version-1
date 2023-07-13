@@ -8,6 +8,7 @@ html, body {
     margin: 0 auto;
     display: flex;
     height: 100%;
+    background-size: cover ;
     background-image: url("./images/black-white-monochrome-minimalistic-white-planet-embossed-mountains-white-planet-against-background-black-mountains-black-white-space-abstract-3d-render_507676-955.avif");
 }
 h2#logo {
@@ -34,9 +35,10 @@ header{
     left: 0;
     width: 100%;
     justify-content: space-around;
-    border-bottom: 1px solid #000;
     z-index: 999;
     margin: 0 0 24px 0;
+    border-bottom: 5px solid antiquewhite;
+
 }
 
 nav { 
@@ -85,7 +87,7 @@ section#about-me {
 
 div.about-me-text-container {
     display: flex;
-    background-color: yellowgreen;
+    background-color: #65ba50;
     color: white;
     border-radius: 10%;
     flex-direction: column;
@@ -93,13 +95,22 @@ div.about-me-text-container {
     width: 100%;
     height: 100%;
     margin-top: -250px;
+    border: 5px solid antiquewhite;
 }
+
 
 img.portrait {
     border-radius: 100%;
     margin-top: 20px;
     margin-left: 100%;
-    border: 5px solid mediumslateblue;
+    border: 5px solid rgb(200, 190, 255);
+}
+
+img.portrait:hover {
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 100%;
+    border: 5px solid rgb(163, 14, 180);
 }
 
 p {
