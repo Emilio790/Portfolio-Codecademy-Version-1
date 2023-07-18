@@ -1,7 +1,8 @@
 body {
     display: flex;
     color: azure;
-    background-color: rgb(23, 115, 118);
+    background-image: url("./images/black-white-monochrome-minimalistic-white-planet-embossed-mountains-white-planet-against-background-black-mountains-black-white-space-abstract-3d-render_507676-955.avif");
+    background-size: cover;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-content: center;
@@ -78,8 +79,8 @@ nav a:hover {
 h2.projects {
     
     font-size: 80px;
-    border: 5px solid black;
-    background-color: rgb(255, 171, 46);
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(191, 48, 48);
     margin: auto;
     width: 100%;
     padding-top: 10px;
@@ -94,12 +95,16 @@ details.project {
     margin-top: 50px;
 }
 
-details {
+details{
     border: 5px solid;
     background-color: rgb(128, 216, 146);
     margin: auto;
     width: 100%;
 }
+details:active {
+    background-color: rgb(52, 95, 61);
+}
+
 
 img.project-image {
     display: block;
@@ -113,6 +118,9 @@ summary,p {
     text-align: center;
     margin: auto;
     
+}
+summary{
+    list-style: none;
 }
 
 p {
